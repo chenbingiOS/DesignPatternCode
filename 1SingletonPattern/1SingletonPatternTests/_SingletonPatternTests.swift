@@ -9,7 +9,7 @@ import XCTest
 @testable import _SingletonPattern
 
 class _SingletonPatternTests: XCTestCase {
-    
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -31,7 +31,6 @@ class _SingletonPatternTests: XCTestCase {
     }
 
 }
-
 
 class SingletonConceptual: XCTestCase {
     func testSingletonConceptual() {

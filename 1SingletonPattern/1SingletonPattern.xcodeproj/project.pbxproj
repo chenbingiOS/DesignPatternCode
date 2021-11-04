@@ -17,6 +17,7 @@
 		7C35CC2727328240002EB131 /* _SingletonPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35CC2627328240002EB131 /* _SingletonPatternUITests.swift */; };
 		7C35CC2927328240002EB131 /* _SingletonPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35CC2827328240002EB131 /* _SingletonPatternUITestsLaunchTests.swift */; };
 		7C35CC38273282CF002EB131 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35CC37273282CF002EB131 /* Singleton.swift */; };
+		7C35CC3A2732864D002EB131 /* SingletonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35CC392732864D002EB131 /* SingletonExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7C35CC2627328240002EB131 /* _SingletonPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SingletonPatternUITests.swift; sourceTree = "<group>"; };
 		7C35CC2827328240002EB131 /* _SingletonPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SingletonPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C35CC37273282CF002EB131 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		7C35CC392732864D002EB131 /* SingletonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				7C35CC072732823E002EB131 /* SceneDelegate.swift */,
 				7C35CC092732823E002EB131 /* ViewController.swift */,
 				7C35CC37273282CF002EB131 /* Singleton.swift */,
+				7C35CC392732864D002EB131 /* SingletonExample.swift */,
 				7C35CC0B2732823E002EB131 /* Main.storyboard */,
 				7C35CC0E27328240002EB131 /* Assets.xcassets */,
 				7C35CC1027328240002EB131 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C35CC3A2732864D002EB131 /* SingletonExample.swift in Sources */,
 				7C35CC0A2732823E002EB131 /* ViewController.swift in Sources */,
 				7C35CC38273282CF002EB131 /* Singleton.swift in Sources */,
 				7C35CC062732823E002EB131 /* AppDelegate.swift in Sources */,

@@ -31,3 +31,23 @@ class _FactoryMethodPatternTests: XCTestCase {
     }
 
 }
+
+
+/**
+ App: Launched with the ConcreteCreator1.
+ Client: I'm not aware of the creator's class, but it still works.
+ Creator: The same creator's code has just worked with {Result of the ConcreteProduct1}
+
+ App: Launched with the ConcreteCreator2.
+ Client: I'm not aware of the creator's class, but it still works.
+ Creator: The same creator's code has just worked with {Result of the ConcreteProduct2}
+ **/
+class FactoryMethodConceptual: XCTestCase {
+    /// 应用程序根据创建者的类型选择创建者的类型配置或环境。
+    func testFactoryMethodConceptual() {
+        print("App: Launched with the ConcreteCreator1.")
+        Client.someClientCode(creator: ConcreteCreator1())
+        print("App: Launched with the ConcreteCreator2.")
+        Client.someClientCode(creator: ConcreteCreator2())
+    }
+}

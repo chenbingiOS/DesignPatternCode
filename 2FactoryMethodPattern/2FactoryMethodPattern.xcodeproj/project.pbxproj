@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0CF74F2733EB25008255BA /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF74E2733EB25008255BA /* FactoryMethodExample.swift */; };
 		7CFB11802733B6CC0049E2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB117F2733B6CC0049E2DE /* AppDelegate.swift */; };
 		7CFB11822733B6CC0049E2DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB11812733B6CC0049E2DE /* SceneDelegate.swift */; };
 		7CFB11842733B6CC0049E2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB11832733B6CC0049E2DE /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0CF74E2733EB25008255BA /* FactoryMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodExample.swift; sourceTree = "<group>"; };
 		7CFB117C2733B6CC0049E2DE /* 2FactoryMethodPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2FactoryMethodPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFB117F2733B6CC0049E2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFB11812733B6CC0049E2DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				7CFB11812733B6CC0049E2DE /* SceneDelegate.swift */,
 				7CFB11832733B6CC0049E2DE /* ViewController.swift */,
 				7CFB11AF2733BB2E0049E2DE /* FactoryMethod.swift */,
+				7C0CF74E2733EB25008255BA /* FactoryMethodExample.swift */,
 				7CFB11852733B6CC0049E2DE /* Main.storyboard */,
 				7CFB11882733B6CF0049E2DE /* Assets.xcassets */,
 				7CFB118A2733B6D00049E2DE /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				7CFB11842733B6CC0049E2DE /* ViewController.swift in Sources */,
 				7CFB11802733B6CC0049E2DE /* AppDelegate.swift in Sources */,
+				7C0CF74F2733EB25008255BA /* FactoryMethodExample.swift in Sources */,
 				7CFB11822733B6CC0049E2DE /* SceneDelegate.swift in Sources */,
 				7CFB11B02733BB2E0049E2DE /* FactoryMethod.swift in Sources */,
 			);

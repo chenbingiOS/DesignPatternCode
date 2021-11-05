@@ -51,3 +51,17 @@ class FactoryMethodConceptual: XCTestCase {
         Client.someClientCode(creator: ConcreteCreator2())
     }
 }
+
+class FactoryMethodRealWorld: XCTestCase {
+    
+    func testFactoryMethodRealWorld() {
+        let info = "Very important info of the presentation 演示文稿的非常重要的信息"
+        let clientCode = ClientCode()
+        // 通过 WiFi 呈现信息
+        clientCode.present(info: info, with: WifiFactory())
+        // 通过蓝牙呈现信息
+        clientCode.present(info: info, with: BluetoothFactory())
+        // 通过 WiFi 呈现信息
+        clientCode.present(info: info, with: WifiFactory())
+    }
+}

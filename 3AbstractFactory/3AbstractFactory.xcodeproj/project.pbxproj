@@ -16,6 +16,8 @@
 		7CA6287B273A0B3600D53F7F /* _AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6287A273A0B3600D53F7F /* _AbstractFactoryTests.swift */; };
 		7CA62885273A0B3600D53F7F /* _AbstractFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA62884273A0B3600D53F7F /* _AbstractFactoryUITests.swift */; };
 		7CA62887273A0B3600D53F7F /* _AbstractFactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA62886273A0B3600D53F7F /* _AbstractFactoryUITestsLaunchTests.swift */; };
+		7CF17C02273A0D16002F16B3 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF17C01273A0D16002F16B3 /* AbstractFactory.swift */; };
+		7CF17C04273A14F9002F16B3 /* AbstractFacotoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF17C03273A14F9002F16B3 /* AbstractFacotoryExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7CA62880273A0B3600D53F7F /* 3AbstractFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3AbstractFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA62884273A0B3600D53F7F /* _AbstractFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _AbstractFactoryUITests.swift; sourceTree = "<group>"; };
 		7CA62886273A0B3600D53F7F /* _AbstractFactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _AbstractFactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CF17C01273A0D16002F16B3 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		7CF17C03273A14F9002F16B3 /* AbstractFacotoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFacotoryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				7CA62863273A0B3500D53F7F /* AppDelegate.swift */,
 				7CA62865273A0B3500D53F7F /* SceneDelegate.swift */,
 				7CA62867273A0B3500D53F7F /* ViewController.swift */,
+				7CF17C01273A0D16002F16B3 /* AbstractFactory.swift */,
+				7CF17C03273A14F9002F16B3 /* AbstractFacotoryExample.swift */,
 				7CA62869273A0B3500D53F7F /* Main.storyboard */,
 				7CA6286C273A0B3600D53F7F /* Assets.xcassets */,
 				7CA6286E273A0B3600D53F7F /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF17C02273A0D16002F16B3 /* AbstractFactory.swift in Sources */,
 				7CA62868273A0B3500D53F7F /* ViewController.swift in Sources */,
 				7CA62864273A0B3500D53F7F /* AppDelegate.swift in Sources */,
+				7CF17C04273A14F9002F16B3 /* AbstractFacotoryExample.swift in Sources */,
 				7CA62866273A0B3500D53F7F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

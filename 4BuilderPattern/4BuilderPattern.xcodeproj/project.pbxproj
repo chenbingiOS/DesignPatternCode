@@ -17,6 +17,7 @@
 		7C4533C5273CB5320013AAE0 /* _BuilderPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4533C4273CB5320013AAE0 /* _BuilderPatternUITests.swift */; };
 		7C4533C7273CB5320013AAE0 /* _BuilderPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4533C6273CB5320013AAE0 /* _BuilderPatternUITestsLaunchTests.swift */; };
 		7C4533D4273CB58D0013AAE0 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4533D3273CB58D0013AAE0 /* BuilderPattern.swift */; };
+		7C4533D6273CC0BD0013AAE0 /* BuilderPatternExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4533D5273CC0BD0013AAE0 /* BuilderPatternExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7C4533C4273CB5320013AAE0 /* _BuilderPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _BuilderPatternUITests.swift; sourceTree = "<group>"; };
 		7C4533C6273CB5320013AAE0 /* _BuilderPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _BuilderPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C4533D3273CB58D0013AAE0 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
+		7C4533D5273CC0BD0013AAE0 /* BuilderPatternExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPatternExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				7C4533A5273CB52F0013AAE0 /* SceneDelegate.swift */,
 				7C4533A7273CB52F0013AAE0 /* ViewController.swift */,
 				7C4533D3273CB58D0013AAE0 /* BuilderPattern.swift */,
+				7C4533D5273CC0BD0013AAE0 /* BuilderPatternExample.swift */,
 				7C4533A9273CB52F0013AAE0 /* Main.storyboard */,
 				7C4533AC273CB5310013AAE0 /* Assets.xcassets */,
 				7C4533AE273CB5310013AAE0 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				7C4533D4273CB58D0013AAE0 /* BuilderPattern.swift in Sources */,
 				7C4533A8273CB52F0013AAE0 /* ViewController.swift in Sources */,
+				7C4533D6273CC0BD0013AAE0 /* BuilderPatternExample.swift in Sources */,
 				7C4533A4273CB52F0013AAE0 /* AppDelegate.swift in Sources */,
 				7C4533A6273CB52F0013AAE0 /* SceneDelegate.swift in Sources */,
 			);

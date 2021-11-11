@@ -48,3 +48,35 @@ class BuilderConceptual: XCTestCase {
         Client.someClientCode(director: director)
     }
 }
+
+/**
+ Client: Start fetching data from Realm
+ RealmQueryBuilder: Initializing RealmProvider with 2 operations:
+ RealmProvider: Retrieving data from Realm...
+ RealmProvider: excuting the 'filter' operation.
+ RealmProvider: excuting the 'limit' operation.
+ Client: I have fetched: 0 records.
+
+ Client: Start fetching data from CoreData
+ CoreDataQueryBuilder: Initializing CoreDataProvider with 2 operations
+ CoreDataProvider: Retrieving data from CoreData...
+ CoreDataProvider: exceuting the 'filter' operation.
+ CoreDataProvider: exceuting the 'limit' operation.
+ Client: I have fetched: 0 records.
+ */
+class BuilderRealWorld: XCTestCase {
+    func testBuilderRealWorld() {
+        print("Client: Start fetching data from Realm")
+        clientCode(builder: RealmQueryBuilder<User>())
+        
+        print()
+        
+        print("Client: Start fetching data from CoreData")
+        clientCode(builder: CoreDataQueryBuilder<User>())
+    }
+    
+    fileprivate func clientCode(builder: BaseQueryBuilder<User>) {
+        let results = builder.filter({ $0.age < 20 }).limit(1).fetch()
+        print("Client: I have fetched: " + String(results.count) + " records.")
+    }
+}

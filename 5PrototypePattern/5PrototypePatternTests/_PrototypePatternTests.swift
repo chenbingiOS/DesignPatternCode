@@ -48,12 +48,22 @@ class Client {
     }
 }
 
+/**
+ Values defined in BaseClass have been cloned!
+ Values defined in SubClass have been cloned!
+ The original object is equal to the copied object!
+ */
 class PrototyConceptual: XCTestCase {
     func testPrototype_NSCopying () {
         Client.someClinetCode()
     }
 }
 
+/**
+ Original title:My First Page
+ Copied title:Copy of 'My First Page'
+ Count of pages:2
+ */
 class PrototypeRealWorld: XCTestCase {
     func testPrototypeRealWorld() {
         let author = Author(id: 10, username: "Ivan_83")
